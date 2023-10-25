@@ -1,8 +1,6 @@
 import java.util.Scanner;
 
 public class OrdenacionEdades {
-
-
     public static void main(String[] args) {
 
         int a1, a2, a3;
@@ -49,14 +47,14 @@ public class OrdenacionEdades {
                 mediunAge = e2;
                 mediumName = n2;
 
-                minName = e3;
+                minName = n3;
                 minAge  = e3;
             }
             else {
                 mediunAge = e3;
                 mediumName = n3;
 
-                minName = e2;
+                minName = n2;
                 minAge  = e2;
             }
 
@@ -69,14 +67,14 @@ public class OrdenacionEdades {
                 mediunAge = e1;
                 mediumName = n1;
 
-                minName = e3;
+                minName = n3;
                 minAge  = e3;
             }
             else {
                 mediunAge = e3;
                 mediumName = n3;
 
-                minName = e1;
+                minName = n1;
                 minAge  = e1;
             }
         }
